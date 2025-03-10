@@ -129,10 +129,9 @@ section:nth-child(even) {
   border: 2px dashed black;
 }
 .page-content .large-content {
-  background-color: green;
   min-height: 600px;
-  border: 2px dashed black;
 }
+
 .titolo-section {
   padding: 50px;
   font-size: 2.5em;
@@ -141,6 +140,34 @@ section:nth-child(even) {
   font-size: 1em;
   line-height: 150%;
   text-align: center;
+}
+.titolo-grande {
+  font-size: 3em;
+  padding: 10px;
+}
+.paragrafo-grande {
+  padding: 20px;
+}
+.titolo-grande,
+.paragrafo-grande {
+  text-align: center;
+}
+
+.ultima-section {
+  text-align: center;
+  background-image: url(../img/stars.svg);
+  align-items: center;
+  padding: 20px;
+}
+.utlimo-bottone {
+  top: 50%;
+  background-color: #4a4ce3;
+  color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  padding: 10px;
+  min-height: 30px;
+  min-width: 120px;
 }
 /* FOOTER */
 .page-footer {
