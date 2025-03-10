@@ -1,0 +1,139 @@
+/* RESET*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+/* UTILS */
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.container.container-xs {
+  max-width: 800px;
+}
+.row {
+  display: flex;
+}
+.col-70 {
+  width: 70%;
+}
+.col-60 {
+  width: 60%;
+}
+.col-40 {
+  width: 40%;
+}
+.col-30 {
+  width: 30%;
+}
+.col-25 {
+  width: 25%;
+}
+/* HEADER */
+
+.top-header {
+  padding: 1rem 0;
+  background-color: azure;
+}
+.top-header .row {
+  background-color: yellow;
+}
+.top-header .row * {
+  width: calc(100% / 3);
+  padding: 0.5rem;
+  border: 2px dashed black;
+}
+.top-header .links-header {
+  text-align: center;
+}
+.top-header .login-header {
+  text-align: right;
+}
+
+.bottom-header {
+  padding: 75px 0;
+  text-align: center;
+  background-color: blue;
+}
+.bottom-header .hero {
+  background-color: pink;
+  min-height: 350px;
+  border: 2px dashed black;
+}
+/* MAIN */
+.page-content > section {
+  padding: 50px 0;
+}
+section:nth-child(odd) {
+  background-color: white;
+}
+section:nth-child(even) {
+  background-color: lightgray;
+}
+.page-content .col-40 {
+  min-height: 400px;
+  background-color: pink;
+  border: 2px dashed black;
+}
+
+.page-content .col-60 {
+  min-height: 400px;
+  background-color: rgb(33, 134, 222);
+  border: 2px dashed black;
+}
+.page-content .large-content {
+  background-color: green;
+  min-height: 600px;
+  border: 2px dashed black;
+}
+
+/* FOOTER */
+.page-footer {
+  background-color: grey;
+  color: white;
+  padding-top: 0.5rem;
+}
+.page-footer .col-30 {
+  background-color: salmon;
+  border: 2px dashed black;
+}
+.page-footer .col-70 {
+  background-color: aqua;
+  border: 2px dashed black;
+}
+.page-footer .col-25 {
+  border: 2px dashed white;
+}
+.page-footer .col-30,
+.page-footer .col-70,
+.page-footer .col-25 {
+  min-height: 300px;
+}
+.footer-top {
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+  margin-bottom: 20px;
+}
+.footer-bottom {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: aquamarine;
+}
+
+.footer-bottom > * {
+  color: black;
+  padding: 0.5rem 1rem;
+  background-color: salmon;
+  border: 2px dashed black;
+}
