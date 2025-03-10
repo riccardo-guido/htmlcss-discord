@@ -121,12 +121,10 @@ section:nth-child(even) {
 }
 .page-content .col-40 {
   min-height: 400px;
-  border: 2px dashed black;
 }
 
 .page-content .col-60 {
   min-height: 400px;
-  border: 2px dashed black;
 }
 .page-content .large-content {
   min-height: 600px;
@@ -176,15 +174,16 @@ section:nth-child(even) {
   padding-top: 0.5rem;
 }
 .page-footer .col-30 {
-  background-color: salmon;
-  border: 2px dashed black;
+  color: #4a4ce3;
+  font-size: 2em;
 }
 .page-footer .col-70 {
-  background-color: aqua;
-  border: 2px dashed black;
+  color: #4a4ce3;
 }
 .page-footer .col-25 {
-  border: 2px dashed white;
+  padding: 10px 20px;
+  text-align: center;
+  line-height: 350%;
 }
 .page-footer .col-30,
 .page-footer .col-70,
@@ -200,12 +199,27 @@ section:nth-child(even) {
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
-  background-color: aquamarine;
 }
 
 .footer-bottom > * {
   color: black;
   padding: 0.5rem 1rem;
-  background-color: salmon;
-  border: 2px dashed black;
+}
+.lista-footer {
+  display: flex;
+  flex-direction: column;
+}
+.logo-footer {
+  background-image: url(../img/logo.svg);
+}
+.footer-button {
+  top: 50%;
+  background-color: #4a4ce3;
+  color: #ffffff;
+  border: none;
+  border-radius: 100px;
+  padding: 10px;
+  min-height: 30px;
+  min-width: 120px;
+  text-align: center;
 }
