@@ -40,36 +40,75 @@ img {
   width: 25%;
 }
 /* HEADER */
-
+header {
+  background-image: url(../img/jumbo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .top-header {
   padding: 1rem 0;
-  background-color: azure;
 }
-.top-header .row {
-  background-color: yellow;
-}
+
 .top-header .row * {
   width: calc(100% / 3);
   padding: 0.5rem;
-  border: 2px dashed black;
-}
-.top-header .links-header {
-  text-align: center;
-}
-.top-header .login-header {
-  text-align: right;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; /* Rimuove i pallini */
+  display: flex; /* Alternativa migliore */
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 25px; /* Aggiunge spazio tra i link */
+}
+.logo-header {
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+}
+.top-header .login-header {
+  text-align: end;
+}
+.primary-button {
+  top: 50%;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 100px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+}
+.secondary-button {
+  top: 50%;
+  background-color: #232328;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+}
 .bottom-header {
   padding: 75px 0;
   text-align: center;
-  background-color: blue;
+  padding: 50px;
 }
 .bottom-header .hero {
-  background-color: pink;
   min-height: 350px;
-  border: 2px dashed black;
+  padding: 10px;
 }
+.titolo,
+.paragrafo {
+  padding: 20px 20px;
+  color: white;
+  line-height: 2em;
+}
+
 /* MAIN */
 .page-content > section {
   padding: 50px 0;
