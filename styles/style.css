@@ -121,13 +121,11 @@ section:nth-child(even) {
 }
 .page-content .col-40 {
   min-height: 400px;
-  background-color: pink;
   border: 2px dashed black;
 }
 
 .page-content .col-60 {
   min-height: 400px;
-  background-color: rgb(33, 134, 222);
   border: 2px dashed black;
 }
 .page-content .large-content {
@@ -135,7 +133,15 @@ section:nth-child(even) {
   min-height: 600px;
   border: 2px dashed black;
 }
-
+.titolo-section {
+  padding: 50px;
+  font-size: 2.5em;
+}
+.paragrafo-section {
+  font-size: 1em;
+  line-height: 150%;
+  text-align: center;
+}
 /* FOOTER */
 .page-footer {
   background-color: grey;
